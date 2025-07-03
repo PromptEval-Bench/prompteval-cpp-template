@@ -33,5 +33,6 @@
     }
   },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential gdb valgrind",
+  "postStartCommand": "./scripts/test-script.sh",
   "remoteUser": "vscode"
 }
